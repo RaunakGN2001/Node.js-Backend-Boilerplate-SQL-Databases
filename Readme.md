@@ -35,11 +35,12 @@ Before using this project boilerplate, ensure you have the following installed:
 
 ## Getting Started
 
-1. Clone this repository to your local machine:
+1. Fork this repository first.
+2. Clone the forked repo to your local machine:
 
 ```
-git clone https://github.com/your_username/nodejs-backend-boilerplate.git
-cd nodejs-backend-boilerplate
+git clone https://github.com/<your-github-username>/Node.js-Backend-Boilerplate-SQL-Databases.git
+cd Node.js-Backend-Boilerplate-SQL-Databases
 ```
 
 2. Install dependencies using npm:
