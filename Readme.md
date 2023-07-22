@@ -74,5 +74,7 @@ You can now begin building your backend application on top of this boilerplate!
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
+## License
+This project is licensed under the MIT License.
 
 Happy coding! :rocket:
