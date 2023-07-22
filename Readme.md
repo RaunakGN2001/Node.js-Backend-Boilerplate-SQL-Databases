@@ -49,7 +49,32 @@ cd Node.js-Backend-Boilerplate-SQL-Databases
 npm install
 ```
 
-3. Configure your database connection in the `config/database.js` file.
+3. Configure your database connection by creating a config.json file inside src/config/ and update the credentials in the following format:
+```
+{
+  "development": {
+    "username": "root",
+    "password": your-db-password,
+    "database": "database_development",
+    "host": "127.0.0.1",
+    "dialect": /* one of 'mysql' | 'postgres' | 'sqlite' | 'mariadb' | 'mssql' | 'db2' | 'snowflake' | 'oracle' */
+  },
+  "test": {
+    "username": "root",
+    "password": your-db-password,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": /* one of 'mysql' | 'postgres' | 'sqlite' | 'mariadb' | 'mssql' | 'db2' | 'snowflake' | 'oracle' */
+  },
+  "production": {
+    "username": "root",
+    "password": your-db-password,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": /* one of 'mysql' | 'postgres' | 'sqlite' | 'mariadb' | 'mssql' | 'db2' | 'snowflake' | 'oracle' */
+  }
+}
+```
 
 4. Run database migrations to set up the database schema:
 
